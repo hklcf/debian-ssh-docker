@@ -1,1 +1,1 @@
-FORM debian:latest
+FROM debian:latest
