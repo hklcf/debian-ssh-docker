@@ -2,7 +2,7 @@ FROM debian:latest
 
 MAINTAINER HKLCF <hklcfs@gmail.com>
 
-RUN apt-get update && apt-get upgrade && apt-get install -y \
+RUN apt-get update -y && apt-get upgrade -y && apt-get install -y \
   openssh-server \
   && rm -rf /var/lib/apt/lists/*
 
